@@ -1,0 +1,56 @@
+//port__wrap
+.port__wrap {}
+.port__inner {
+    .port__btn {
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            li {
+                margin-right: 10px;
+                a {
+                    border: 1px solid #000;
+                    display: inline-block;
+                    padding: 5px 20px;
+                    border-radius: 40px
+                }
+            }
+        }
+    }
+
+    .port__cont {
+        display: flex;
+        flex-wrap: wrap;
+
+        .port {
+            width: 33.333%;
+
+            .port__header {
+                margin-right: 30px;
+            }
+            
+    
+            .port__body {
+                display: flex;
+                align-items: center;
+                margin: 30px 30px 30px 0;
+            }
+            .port__body .pic {
+                margin-right: 20px;
+            }
+
+            img {
+                width: 100%;
+            }
+            h4 {
+                text-align: left;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
