@@ -1,7 +1,14 @@
 import React from "react";
+import ContTitle from "@/components/title/ContTitle";
+import PortCont from "@/components/portfolio/PortCont";
 
-const Port = () => {
-  return <div>Port</div>;
+const PortPage = () => {
+  return (
+    <>
+      <ContTitle title="Port" />
+      <PortCont />
+    </>
+  );
 };
 
-export default Port;
+export default PortPage;

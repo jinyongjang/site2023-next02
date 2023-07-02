@@ -13,4 +13,5 @@ const MovieCont = ({ movies }) => {
     </div>
   );
 };
+
 export default MovieCont;

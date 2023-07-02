@@ -1,0 +1,60 @@
+.intro__wrap {
+  padding-top: 50px;
+  .introcard1 {
+    display: flex;
+
+    .introImg {
+      background-image: url(../../../public/assets/images/intro/intro1.png);
+      background-size: cover;
+      background-position: center center;
+      width: 40%;
+      height: 550px;
+    }
+    .introDesc {
+      width: 55%;
+
+      h1 {
+        color: gold;
+        font-weight: bold;
+        font-size: 70px;
+      }
+      p {
+        color: #7f5b00;
+        padding-left: 20px;
+        line-height: 1.6;
+        padding-top: 60px;
+      }
+    }
+  }
+  .introCard2 {
+    padding-top: 50px;
+    h1 {
+      font-weight: bold;
+      font-size: 70px;
+      color: salmon;
+    }
+    p {
+      color: #920046;
+      font-size: 17px;
+      line-height: 1.6;
+      padding-left: 20px;
+      padding-top: 50px;
+    }
+  }
+  .introcard3 {
+    padding-top: 80px;
+    h1 {
+      font-weight: bold;
+      font-size: 70px;
+      color: violet;
+      text-align: right;
+    }
+    p {
+      color: rgb(160, 59, 160);
+      font-size: 17px;
+      line-height: 1.6;
+      padding-left: 20px;
+      padding-top: 50px;
+    }
+  }
+}
